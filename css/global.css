@@ -1,0 +1,157 @@
+@import url("https://fonts.cdnfonts.com/css/barca");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/br-segma");
+@import url("https://fonts.cdnfonts.com/css/br-shape");
+
+* {
+  /* font-family: 'Barca', sans-serif; pode-se cogitar */
+  font-family: "Poppins", sans-serif; /* minha preferida
+    /* font-family: 'BR Segma', sans-serif; gostei muito, mas eh meio pequena */
+  /* font-family: 'BR Shape', sans-serif; gostei */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #405d49;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  align-items: center;
+}
+
+/* header img {}*/
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  color: #f0ece1;
+  font-weight: 500;
+}
+
+header a,
+footer a {
+  text-decoration: none;
+  color: #f0ece1;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+header a:hover {
+  color: #6b8e4e;
+}
+
+.links-header {
+  display: flex;
+  margin-right: 50px;
+  gap: 50px;
+}
+
+.redes-sociais {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.perfil {
+  font-size: 22px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease;
+  border-radius: 50%;
+}
+
+.perfil:hover {
+  background-color: #6b8e4e21;
+}
+
+main {
+  margin-top: 70px;
+}
+
+footer {
+  background-color: #2f2f2f;
+  display: flex;
+  justify-content: space-evenly;
+  height: 420px;
+  width: 100%;
+  color: #f0ece1;
+}
+
+footer > div {
+  margin-top: 80px;
+}
+
+footer div:nth-child(1) > div {
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+}
+
+footer div:nth-child(1) > div > a {
+  display: flex;
+  background-color: #3c3c3c;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  justify-content: center;
+  align-items: center;
+  padding: 13px;
+  transition: 0.5s;
+}
+
+footer div:nth-child(1) > div > a:hover {
+  background-color: #6b8e4e;
+}
+
+.links-rapidos ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.links-rapidos a:hover {
+  padding: 10px;
+  color: #6b8e4e;
+}
+
+address {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-style: normal;
+}
+
+address span {
+  margin-left: 10px;
+}
+
+.footer-bottom {
+  background-color: #2f2f2f;
+  text-align: center;
+  color: #f0ece1;
+  padding-bottom: 20px;
+}
+
+.footer-bottom hr {
+  width: 1260px;
+  height: 0.3px;
+  background-color: #f0ece1;
+  border: none;
+  margin: 0 auto 10px auto;
+}
